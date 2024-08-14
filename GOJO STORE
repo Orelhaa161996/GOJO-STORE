@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Skins - League of Legends</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1C1C1C;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #E6B800;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+            padding: 10px;
+        }
+        nav a {
+            color: #FFFFFF;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #E6B800;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            color: #E6B800;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #2E2E2E;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            color: #FFFFFF;
+            margin: 15px 0;
+        }
+        .card p {
+            color: #BFBFBF;
+        }
+        .card button {
+            background-color: #E6B800;
+            color: #121212;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .card button:hover {
+            background-color: #C6A100;
+        }
+        footer {
+            background-color: #1C1C1C;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #BFBFBF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Loja de Skins - League of Legends</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#skins">Skins</a>
+    <a href="#acessorios">Acessórios</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="container" id="home">
+    <h2 class="section-title">Bem-vindo à Loja de Skins</h2>
+    <p>Aqui você encontra as melhores skins e acessórios para seus campeões favoritos em League of Legends.</p>
+</div>
+
+<div class="container" id="skins">
+    <h2 class="section-title">Nossas Skins</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Skin 1">
+            <h3>Skin 1</h3>
+            <p>Descrição breve da skin.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Skin 2">
+            <h3>Skin 2</h3>
+            <p>Descrição breve da skin.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Skin 3">
+            <h3>Skin 3</h3>
+            <p>Descrição breve da skin.</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="acessorios">
+    <h2 class="section-title">Nossos Acessórios</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Acessório 1">
+            <h3>Acessório 1</h3>
+            <p>Descrição breve do acessório.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Acessório 2">
+            <h3>Acessório 2</h3>
+            <p>Descrição breve do acessório.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Acessório 3">
+            <h3>Acessório 3</h3>
+            <p>Descrição breve do acessório.</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contato">
+    <h2 class="section-title">Contato</h2>
+    <p>Tem alguma dúvida ou quer saber mais? Entre em contato conosco!</p>
+    <p>Email: contato@lojaskinslol.com.br</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Loja de Skins - League of Legends. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
